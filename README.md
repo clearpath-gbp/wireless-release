@@ -1,3 +1,28 @@
+## wireless (jazzy) - 1.1.4-1
+
+The packages in the `wireless` repository were released into the `jazzy` distro by running `/usr/bin/bloom-release wireless -r jazzy -t jazzy` on `Mon, 21 Apr 2025 14:32:24 -0000`
+
+These packages were released:
+- `wireless_msgs`
+- `wireless_watcher`
+
+Version of package(s) in repository `wireless`:
+
+- upstream repository: https://github.com/clearpathrobotics/wireless.git
+- release repository: https://github.com/clearpath-gbp/wireless-release.git
+- rosdistro version: `1.1.3-1`
+- old version: `1.1.3-1`
+- new version: `1.1.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.25.1`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## wireless (humble) - 1.1.4-1
 
 The packages in the `wireless` repository were released into the `humble` distro by running `/usr/bin/bloom-release wireless -r humble -t humble` on `Mon, 21 Apr 2025 14:27:19 -0000`
