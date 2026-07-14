@@ -1,3 +1,28 @@
+## wireless (lyrical) - 3.0.0-1
+
+The packages in the `wireless` repository were released into the `lyrical` distro by running `/usr/bin/bloom-release wireless -t lyrical -r lyrical` on `Tue, 14 Jul 2026 18:43:39 -0000`
+
+These packages were released:
+- `wireless_msgs`
+- `wireless_watcher`
+
+Version of package(s) in repository `wireless`:
+
+- upstream repository: https://github.com/clearpathrobotics/wireless.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `3.0.0-1`
+
+Versions of tools used:
+
+- bloom version: `0.14.3`
+- catkin_pkg version: `1.1.0`
+- rosdep version: `0.26.0`
+- rosdistro version: `1.0.1`
+- vcstools version: `0.1.42`
+
+
 ## wireless (humble) - 1.1.5-3
 
 The packages in the `wireless` repository were released into the `humble` distro by running `/usr/bin/bloom-release wireless -r humble -t humble --edit-track` on `Wed, 30 Jul 2025 12:50:00 -0000`
