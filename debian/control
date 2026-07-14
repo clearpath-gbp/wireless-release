@@ -1,0 +1,12 @@
+Source: ros-lyrical-wireless-msgs
+Section: misc
+Priority: optional
+Maintainer: "Roni Kreinin" <rkreinin@clearpathrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), ros-lyrical-ament-cmake, ros-lyrical-ament-lint-auto <!nocheck>, ros-lyrical-ament-lint-common <!nocheck>, ros-lyrical-builtin-interfaces, ros-lyrical-rosidl-default-generators, ros-lyrical-std-msgs, ros-lyrical-ros-workspace, ros-lyrical-rosidl-typesupport-fastrtps-c, ros-lyrical-rosidl-typesupport-fastrtps-cpp
+Homepage: https://index.ros.org/p/wireless_msgs/#lyrical
+Standards-Version: 3.9.2
+
+Package: ros-lyrical-wireless-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-lyrical-builtin-interfaces, ros-lyrical-rosidl-default-runtime, ros-lyrical-std-msgs, ros-lyrical-ros-workspace
+Description: Messages for describing a wireless network such as bitrate, essid, and link quality.
