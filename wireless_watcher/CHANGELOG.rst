@@ -2,6 +2,14 @@
 Changelog for package wireless_watcher
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.0 (2026-07-14)
+------------------
+* Minor linting change.
+* Changed to iw from wireless-tools for Lyrical.
+* Removed lint test and fixed deps for msgs.
+* Added precommit, dependabot, CI, mergify and issue template.
+* Contributors: Tony Baltovski
+
 1.1.5 (2025-04-30)
 ------------------
 * Added Github codeowners, issue template, CI.  Also, fixed linting. (`#24 <https://github.com/clearpathrobotics/wireless/issues/24>`_)
