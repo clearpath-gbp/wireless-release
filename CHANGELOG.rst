@@ -2,6 +2,9 @@
 Changelog for package wireless_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.1 (2026-07-16)
+------------------
+
 3.0.0 (2026-07-14)
 ------------------
 * Removed lint test and fixed deps for msgs.
