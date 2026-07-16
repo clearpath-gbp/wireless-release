@@ -2,6 +2,11 @@
 Changelog for package wireless_watcher
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+3.0.1 (2026-07-16)
+------------------
+* Added the dormant state as still being connected. (`#31 <https://github.com/clearpathrobotics/wireless/issues/31>`_)
+* Contributors: Tony Baltovski
+
 3.0.0 (2026-07-14)
 ------------------
 * Minor linting change.
