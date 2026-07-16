@@ -2,9 +2,15 @@
 Changelog for package wireless_watcher
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.1.6 (2026-07-16)
+3.0.1 (2026-07-16)
 ------------------
-* Added the dormant state as still being connected. (`#30 <https://github.com/clearpathrobotics/wireless/issues/30>`_)
+* Added the dormant state as still being connected. (`#31 <https://github.com/clearpathrobotics/wireless/issues/31>`_)
+* Contributors: Tony Baltovski
+
+3.0.0 (2026-07-14)
+------------------
+* Minor linting change.
+* Changed to iw from wireless-tools for Lyrical.
 * Removed lint test and fixed deps for msgs.
 * Added precommit, dependabot, CI, mergify and issue template.
 * Contributors: Tony Baltovski

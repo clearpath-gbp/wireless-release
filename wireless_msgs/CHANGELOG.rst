@@ -2,7 +2,10 @@
 Changelog for package wireless_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1.1.6 (2026-07-16)
+3.0.1 (2026-07-16)
+------------------
+
+3.0.0 (2026-07-14)
 ------------------
 * Removed lint test and fixed deps for msgs.
 * Added precommit, dependabot, CI, mergify and issue template.
