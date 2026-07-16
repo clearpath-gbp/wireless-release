@@ -1,0 +1,33 @@
+name: Auto Assign
+on:
+  pull_request:
+    types: [opened, reopened]
+  issues:
+    types: [opened, reopened]
+
+jobs:
+  assign-pr:
+    if: ${{ github.event_name == 'pull_request' }}
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    steps:
+      - name: Request review from platform team
+        run: |
+          REPO="${{ github.repository }}"
+          gh pr edit ${{ github.event.pull_request.number }} --repo "${REPO}" --add-reviewer clearpathrobotics/clearpath-platform-team
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  assign-issue:
+    if: ${{ github.event_name == 'issues' }}
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+    steps:
+      - name: Notify platform team on new issue
+        run: |
+          REPO="${{ github.repository }}"
+          gh issue comment ${{ github.event.issue.number }} --repo "${REPO}" --body "cc @clearpathrobotics/clearpath-platform-team"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
